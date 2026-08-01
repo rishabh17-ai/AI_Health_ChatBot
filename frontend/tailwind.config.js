@@ -7,21 +7,27 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        display: ['Plus Jakarta Sans', 'sans-serif'],
+        serif: ['Newsreader', 'DM Serif Display', 'Georgia', 'serif'],
+        sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
       },
       colors: {
-        teal: {
-          50: '#f0fdfc',
-          100: '#ccfbf6',
-          400: '#2dd4bf',
-          500: '#14b8a6',
-          600: '#0d9488',
-          700: '#0f766e',
-          900: '#134e4a',
-        },
-        slate: {
-          850: '#1a2332',
+        medichat: {
+          bg: '#FAF8F5',
+          card: '#FFFFFF',
+          green: {
+            DEFAULT: '#2D4A3E',
+            hover: '#233B31',
+            light: '#3D6356',
+            box: '#22382F',
+            soft: '#5C8266'
+          },
+          mint: '#D1E7DD',
+          sand: '#EBE6DF',
+          peach: '#FDE2D6',
+          rust: '#A03E24',
+          text: '#2C3531',
+          muted: '#6B7A74',
+          border: '#E8E4DD'
         }
       }
     },
